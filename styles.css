@@ -315,7 +315,7 @@ tbody tr:last-child td {
 
 tbody tr td[colspan] {
   text-align: center;
-  color: #94a3b8;
+  color: #64748b;
   background-color: #ffffff;
   padding: 2.5rem;
   font-style: italic;
