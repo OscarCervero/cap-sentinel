@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alerts>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261004193005.673402PRP104221791142205
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-04T19:30:05-00:00</sent>
+        <status>Actual</status>
+        <msgType>Update</msgType>
+        <scope>Public</scope>
+        <references>
+            http://www.aemet.es,2.49.0.0.724.0.ES.20261003164540.673402PRP104201791045940,2026-10-03T16:45:40-00:00
+        </references>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de lluvias de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Immediate</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-04T21:30:05+02:00</effective>
+            <onset>2026-10-04T21:00:00+02:00</onset>
+            <expires>2026-10-04T23:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de lluvias de nivel amarillo. Meseta de Palencia
+            </headline>
+            <description>Precipitación acumulada en una hora: 20 mm.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P1;Precipitación acumulada en una hora;20 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Meseta de Palencia</areaDesc>
+                <polygon>
+                    42.29,-5.0 42.3,-4.95 42.35,-4.94 42.37,-4.97 42.39,-4.9 42.44,-4.91 42.45,-4.9
+                    42.54,-4.89 42.55,-4.91 42.58,-4.9 42.64,-4.9 42.63,-4.8 42.61,-4.81 42.59,-4.77
+                    42.64,-4.77 42.62,-4.71 42.63,-4.64 42.67,-4.69 42.69,-4.68 42.66,-4.63
+                    42.66,-4.55 42.68,-4.51 42.7,-4.54 42.77,-4.52 42.81,-4.49 42.76,-4.42
+                    42.79,-4.37 42.82,-4.41 42.82,-4.33 42.86,-4.33 42.85,-4.27 42.9,-4.23
+                    42.86,-4.22 42.84,-4.2 42.86,-4.14 42.84,-4.14 42.82,-4.18 42.79,-4.15
+                    42.79,-4.1 42.76,-4.08 42.73,-4.11 42.75,-4.14 42.74,-4.18 42.7,-4.22
+                    42.67,-4.27 42.62,-4.27 42.61,-4.29 42.54,-4.28 42.5,-4.25 42.46,-4.25
+                    42.46,-4.31 42.43,-4.33 42.38,-4.32 42.36,-4.28 42.31,-4.25 42.21,-4.21
+                    42.18,-4.19 42.13,-4.2 42.12,-4.11 42.1,-4.08 42.06,-4.1 42.04,-4.08 42.05,-4.04
+                    42.05,-3.98 42.03,-3.97 42.0,-4.01 41.95,-4.03 41.96,-3.99 42.0,-3.91
+                    41.96,-3.89 41.96,-3.94 41.93,-3.98 41.9,-3.98 41.87,-4.03 41.87,-4.09
+                    41.83,-4.09 41.79,-4.04 41.77,-4.04 41.78,-4.09 41.81,-4.12 41.8,-4.15
+                    41.81,-4.24 41.76,-4.32 41.79,-4.39 41.76,-4.44 41.78,-4.49 41.82,-4.49
+                    41.83,-4.54 41.81,-4.56 41.86,-4.63 41.89,-4.64 41.9,-4.67 41.86,-4.73
+                    41.83,-4.76 41.82,-4.79 41.9,-4.84 41.93,-4.89 41.92,-4.91 41.93,-4.95
+                    41.94,-5.0 42.01,-4.96 42.02,-4.94 42.05,-4.95 42.08,-4.92 42.14,-4.93
+                    42.15,-5.03 42.19,-5.01 42.22,-5.02 42.29,-5.0
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>673402</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093738.681304TOTO06221791193058
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:37:38-00:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <scope>Public</scope>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de tormentas de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:37:38+02:00</effective>
+            <onset>2026-10-06T14:00:00+02:00</onset>
+            <expires>2026-10-06T23:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de tormentas de nivel amarillo. Sierras de Alcudia y Madrona
+            </headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Tormentas;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Sierras de Alcudia y Madrona</areaDesc>
+                <polygon>
+                    38.73,-5.05 38.74,-4.99 38.79,-4.96 38.85,-4.94 38.89,-4.91 38.88,-4.85
+                    38.88,-4.81 38.9,-4.75 38.9,-4.72 38.87,-4.67 38.9,-4.6 38.77,-4.6 38.76,-4.53
+                    38.81,-4.47 38.83,-4.37 38.8,-4.32 38.78,-4.26 38.76,-4.23 38.76,-4.19
+                    38.75,-4.12 38.71,-4.12 38.69,-4.17 38.63,-4.24 38.63,-4.18 38.62,-4.12
+                    38.62,-4.09 38.61,-4.02 38.55,-3.93 38.58,-3.83 38.61,-3.79 38.65,-3.83
+                    38.77,-3.79 38.75,-3.77 38.74,-3.71 38.67,-3.63 38.66,-3.59 38.61,-3.54
+                    38.58,-3.53 38.57,-3.43 38.52,-3.42 38.48,-3.37 38.44,-3.38 38.41,-3.42
+                    38.4,-3.47 38.41,-3.53 38.45,-3.54 38.45,-3.58 38.41,-3.58 38.39,-3.62
+                    38.42,-3.73 38.42,-3.81 38.38,-3.85 38.37,-3.96 38.38,-4.07 38.38,-4.16
+                    38.4,-4.26 38.39,-4.28 38.35,-4.27 38.4,-4.43 38.46,-4.52 38.5,-4.61 38.55,-4.67
+                    38.6,-4.79 38.61,-4.86 38.68,-4.87 38.68,-4.95 38.7,-5.0 38.73,-5.05
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>681304</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate thunderstorm warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:37:38+02:00</effective>
+            <onset>2026-10-06T14:00:00+02:00</onset>
+            <expires>2026-10-06T23:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>
+                Moderate thunderstorm warning. Sierras de Alcudia y Madrona
+            </headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Thunderstorm;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Sierras de Alcudia y Madrona</areaDesc>
+                <polygon>
+                    38.73,-5.05 38.74,-4.99 38.79,-4.96 38.85,-4.94 38.89,-4.91 38.88,-4.85
+                    38.88,-4.81 38.9,-4.75 38.9,-4.72 38.87,-4.67 38.9,-4.6 38.77,-4.6 38.76,-4.53
+                    38.81,-4.47 38.83,-4.37 38.8,-4.32 38.78,-4.26 38.76,-4.23 38.76,-4.19
+                    38.75,-4.12 38.71,-4.12 38.69,-4.17 38.63,-4.24 38.63,-4.18 38.62,-4.12
+                    38.62,-4.09 38.61,-4.02 38.55,-3.93 38.58,-3.83 38.61,-3.79 38.65,-3.83
+                    38.77,-3.79 38.75,-3.77 38.74,-3.71 38.67,-3.63 38.66,-3.59 38.61,-3.54
+                    38.58,-3.53 38.57,-3.43 38.52,-3.42 38.48,-3.37 38.44,-3.38 38.41,-3.42
+                    38.4,-3.47 38.41,-3.53 38.45,-3.54 38.45,-3.58 38.41,-3.58 38.39,-3.62
+                    38.42,-3.73 38.42,-3.81 38.38,-3.85 38.37,-3.96 38.38,-4.07 38.38,-4.16
+                    38.4,-4.26 38.39,-4.28 38.35,-4.27 38.4,-4.43 38.46,-4.52 38.5,-4.61 38.55,-4.67
+                    38.6,-4.79 38.61,-4.86 38.68,-4.87 38.68,-4.95 38.7,-5.0 38.73,-5.05
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>681304</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093738.684501TOTO06221791193058
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:37:38-00:00</sent>
+        <status>Actual</status>
+        <msgType>Update</msgType>
+        <scope>Public</scope>
+        <references>
+            http://www.aemet.es,2.49.0.0.724.0.ES.20261004093324.684501TOTO06221791106404,2026-10-04T09:33:24-00:00
+        </references>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de tormentas de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:37:38+02:00</effective>
+            <onset>2026-10-06T14:00:00+02:00</onset>
+            <expires>2026-10-06T23:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de tormentas de nivel amarillo. Sierra de San Vicente
+            </headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Tormentas;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Sierra de San Vicente</areaDesc>
+                <polygon>
+                    40.12,-4.95 40.14,-4.92 40.17,-4.91 40.24,-4.81 40.28,-4.8 40.26,-4.76
+                    40.28,-4.7 40.21,-4.69 40.2,-4.65 40.22,-4.58 40.2,-4.53 40.23,-4.48 40.23,-4.45
+                    40.28,-4.4 40.31,-4.36 40.24,-4.35 40.2,-4.35 40.19,-4.4 40.16,-4.46 40.14,-4.44
+                    40.08,-4.5 40.07,-4.6 40.12,-4.7 40.08,-4.72 40.09,-4.78 40.07,-4.83 40.08,-4.88
+                    40.05,-4.93 40.12,-4.95
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>684501</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate thunderstorm warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:37:38+02:00</effective>
+            <onset>2026-10-06T14:00:00+02:00</onset>
+            <expires>2026-10-06T23:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>
+                Moderate thunderstorm warning. Sierra de San Vicente
+            </headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Thunderstorm;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Sierra de San Vicente</areaDesc>
+                <polygon>
+                    40.12,-4.95 40.14,-4.92 40.17,-4.91 40.24,-4.81 40.28,-4.8 40.26,-4.76
+                    40.28,-4.7 40.21,-4.69 40.2,-4.65 40.22,-4.58 40.2,-4.53 40.23,-4.48 40.23,-4.45
+                    40.28,-4.4 40.31,-4.36 40.24,-4.35 40.2,-4.35 40.19,-4.4 40.16,-4.46 40.14,-4.44
+                    40.08,-4.5 40.07,-4.6 40.12,-4.7 40.08,-4.72 40.09,-4.78 40.07,-4.83 40.08,-4.88
+                    40.05,-4.93 40.12,-4.95
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>684501</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093738.684502TOTO06221791193058
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:37:38-00:00</sent>
+        <status>Actual</status>
+        <msgType>Update</msgType>
+        <scope>Public</scope>
+        <references>
+            http://www.aemet.es,2.49.0.0.724.0.ES.20261004093324.684502TOTO06221791106404,2026-10-04T09:33:24-00:00
+        </references>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de tormentas de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:37:38+02:00</effective>
+            <onset>2026-10-06T14:00:00+02:00</onset>
+            <expires>2026-10-06T23:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de tormentas de nivel amarillo. Valle del Tajo
+            </headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Tormentas;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Valle del Tajo</areaDesc>
+                <polygon>
+                    40.1,-5.37 40.12,-5.33 40.11,-5.31 40.11,-5.21 40.08,-5.2 40.1,-5.13 40.15,-5.07
+                    40.16,-5.02 40.11,-5.01 40.12,-4.95 40.05,-4.93 40.08,-4.88 40.07,-4.83
+                    40.09,-4.78 40.08,-4.72 40.12,-4.7 40.07,-4.6 40.08,-4.5 40.14,-4.44 40.16,-4.46
+                    40.19,-4.4 40.2,-4.35 40.24,-4.35 40.22,-4.29 40.24,-4.27 40.27,-4.24 40.27,-4.2
+                    40.29,-4.18 40.25,-4.15 40.24,-4.1 40.27,-4.07 40.21,-3.99 40.21,-3.95
+                    40.19,-3.91 40.19,-3.86 40.16,-3.83 40.18,-3.8 40.14,-3.77 40.15,-3.72
+                    40.11,-3.61 40.06,-3.62 40.02,-3.68 40.02,-3.7 39.96,-3.77 39.93,-3.88
+                    39.9,-3.86 39.89,-3.81 39.88,-3.86 39.85,-3.87 39.85,-3.94 39.82,-3.96
+                    39.82,-4.04 39.83,-4.07 39.81,-4.11 39.76,-4.16 39.76,-4.19 39.72,-4.24
+                    39.76,-4.28 39.75,-4.34 39.78,-4.45 39.77,-4.5 39.71,-4.52 39.76,-4.59
+                    39.76,-4.64 39.77,-4.68 39.74,-4.72 39.78,-4.75 39.74,-4.83 39.66,-4.86
+                    39.67,-4.95 39.66,-5.03 39.61,-5.09 39.65,-5.16 39.72,-5.14 39.74,-5.16
+                    39.8,-5.17 39.8,-5.2 39.75,-5.25 39.77,-5.31 39.83,-5.31 39.86,-5.28 39.89,-5.33
+                    39.89,-5.4 39.98,-5.36 40.06,-5.37 40.1,-5.37
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>684502</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate thunderstorm warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:37:38+02:00</effective>
+            <onset>2026-10-06T14:00:00+02:00</onset>
+            <expires>2026-10-06T23:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>Moderate thunderstorm warning. Valle del Tajo</headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Thunderstorm;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Valle del Tajo</areaDesc>
+                <polygon>
+                    40.1,-5.37 40.12,-5.33 40.11,-5.31 40.11,-5.21 40.08,-5.2 40.1,-5.13 40.15,-5.07
+                    40.16,-5.02 40.11,-5.01 40.12,-4.95 40.05,-4.93 40.08,-4.88 40.07,-4.83
+                    40.09,-4.78 40.08,-4.72 40.12,-4.7 40.07,-4.6 40.08,-4.5 40.14,-4.44 40.16,-4.46
+                    40.19,-4.4 40.2,-4.35 40.24,-4.35 40.22,-4.29 40.24,-4.27 40.27,-4.24 40.27,-4.2
+                    40.29,-4.18 40.25,-4.15 40.24,-4.1 40.27,-4.07 40.21,-3.99 40.21,-3.95
+                    40.19,-3.91 40.19,-3.86 40.16,-3.83 40.18,-3.8 40.14,-3.77 40.15,-3.72
+                    40.11,-3.61 40.06,-3.62 40.02,-3.68 40.02,-3.7 39.96,-3.77 39.93,-3.88
+                    39.9,-3.86 39.89,-3.81 39.88,-3.86 39.85,-3.87 39.85,-3.94 39.82,-3.96
+                    39.82,-4.04 39.83,-4.07 39.81,-4.11 39.76,-4.16 39.76,-4.19 39.72,-4.24
+                    39.76,-4.28 39.75,-4.34 39.78,-4.45 39.77,-4.5 39.71,-4.52 39.76,-4.59
+                    39.76,-4.64 39.77,-4.68 39.74,-4.72 39.78,-4.75 39.74,-4.83 39.66,-4.86
+                    39.67,-4.95 39.66,-5.03 39.61,-5.09 39.65,-5.16 39.72,-5.14 39.74,-5.16
+                    39.8,-5.17 39.8,-5.2 39.75,-5.25 39.77,-5.31 39.83,-5.31 39.86,-5.28 39.89,-5.33
+                    39.89,-5.4 39.98,-5.36 40.06,-5.37 40.1,-5.37
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>684502</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005101019.645501PRP105131791195019
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T10:10:19-00:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <scope>Public</scope>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de lluvias de nivel naranja</event>
+            <responseType>Monitor</responseType>
+            <urgency>Immediate</urgency>
+            <severity>Severe</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T12:10:19+02:00</effective>
+            <onset>2026-10-05T12:00:00+02:00</onset>
+            <expires>2026-10-05T14:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>Aviso de lluvias de nivel naranja. Menorca</headline>
+            <description>
+                Precipitación acumulada en una hora: 40 mm. Tormenta severa observada al oeste de
+                Ciutadella que se espera que se desplace hacía el este y cruce la isla en las
+                próximas horas.
+            </description>
+            <instruction>
+                Esté preparado. Tome precauciones y manténgase informado de la predicción
+                meteorológica más actualizada. Se pueden producir daños graves a personas y bienes,
+                especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>naranja</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P1;Precipitación acumulada en una hora;40 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Menorca</areaDesc>
+                <polygon>
+                    39.97,3.83 40.0,3.83 40.02,3.79 40.05,3.82 40.06,3.88 40.05,3.98 40.07,4.03
+                    40.06,4.17 40.03,4.17 40.0,4.23 40.0,4.25 39.93,4.28 39.89,4.31 39.85,4.31
+                    39.81,4.27 39.83,4.2 39.88,4.1 39.92,4.02 39.93,3.97 39.92,3.86 39.93,3.82
+                    39.97,3.83
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>645501</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Severe rain warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Immediate</urgency>
+            <severity>Severe</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T12:10:19+02:00</effective>
+            <onset>2026-10-05T12:00:00+02:00</onset>
+            <expires>2026-10-05T14:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>Severe rain warning. Menorca</headline>
+            <description>
+                One-hour accumulated precipitation: 40 mm. Tormenta severa observada al oeste de
+                Ciutadella que se espera que se desplace hacía el este y cruce la isla en las
+                próximas horas.
+            </description>
+            <instruction>
+                Be prepared. Take precautions and keep up to date with the latest weather forecast.
+                Severe damages to people and properties may occur, especially to those vulnerable or
+                in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>naranja</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P1;One-hour accumulated precipitation;40 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Menorca</areaDesc>
+                <polygon>
+                    39.97,3.83 40.0,3.83 40.02,3.79 40.05,3.82 40.06,3.88 40.05,3.98 40.07,4.03
+                    40.06,4.17 40.03,4.17 40.0,4.23 40.0,4.25 39.93,4.28 39.89,4.31 39.85,4.31
+                    39.81,4.27 39.83,4.2 39.88,4.1 39.92,4.02 39.93,3.97 39.92,3.86 39.93,3.82
+                    39.97,3.83
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>645501</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093533.690804PRP107041791192933
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:35:33-00:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <scope>Public</scope>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de lluvias de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T05:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de lluvias de nivel amarillo. Litoral de Barcelona
+            </headline>
+            <description>Precipitación acumulada en una hora: 30 mm.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P1;Precipitación acumulada en una hora;30 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Litoral de Barcelona</areaDesc>
+                <polygon>
+                    41.31,1.6 41.31,1.63 41.31,1.64 41.29,1.69 41.32,1.7 41.35,1.74 41.32,1.79
+                    41.32,1.84 41.36,1.9 41.38,1.87 41.43,1.9 41.46,2.02 41.44,2.03 41.43,2.12
+                    41.45,2.14 41.49,2.25 41.53,2.32 41.63,2.42 41.63,2.52 41.66,2.55 41.66,2.59
+                    41.72,2.65 41.71,2.67 41.74,2.73 41.74,2.78 41.68,2.76 41.65,2.78 41.58,2.56
+                    41.54,2.46 41.49,2.38 41.47,2.3 41.45,2.25 41.41,2.22 41.37,2.18 41.32,2.15
+                    41.29,2.12 41.27,2.02 41.26,1.92 41.23,1.85 41.22,1.78 41.2,1.65 41.22,1.62
+                    41.26,1.62 41.31,1.6
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>690804</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate rain warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T05:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>Moderate rain warning. Litoral de Barcelona</headline>
+            <description>One-hour accumulated precipitation: 30 mm.</description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P1;One-hour accumulated precipitation;30 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Litoral de Barcelona</areaDesc>
+                <polygon>
+                    41.31,1.6 41.31,1.63 41.31,1.64 41.29,1.69 41.32,1.7 41.35,1.74 41.32,1.79
+                    41.32,1.84 41.36,1.9 41.38,1.87 41.43,1.9 41.46,2.02 41.44,2.03 41.43,2.12
+                    41.45,2.14 41.49,2.25 41.53,2.32 41.63,2.42 41.63,2.52 41.66,2.55 41.66,2.59
+                    41.72,2.65 41.71,2.67 41.74,2.73 41.74,2.78 41.68,2.76 41.65,2.78 41.58,2.56
+                    41.54,2.46 41.49,2.38 41.47,2.3 41.45,2.25 41.41,2.22 41.37,2.18 41.32,2.15
+                    41.29,2.12 41.27,2.02 41.26,1.92 41.23,1.85 41.22,1.78 41.2,1.65 41.22,1.62
+                    41.26,1.62 41.31,1.6
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>690804</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093533.743103PRP107161791192933
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:35:33-00:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <scope>Public</scope>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de lluvias de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T17:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de lluvias de nivel amarillo. Pirineo navarro
+            </headline>
+            <description>Precipitación acumulada en una hora: 15 mm.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P1;Precipitación acumulada en una hora;15 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Pirineo navarro</areaDesc>
+                <polygon>
+                    43.04,-1.55 43.06,-1.5 43.03,-1.47 43.05,-1.45 43.03,-1.35 43.09,-1.34
+                    43.04,-1.25 43.06,-1.23 43.01,-1.13 42.99,-1.01 42.95,-0.94 42.95,-0.81
+                    42.97,-0.75 42.92,-0.73 42.92,-0.78 42.9,-0.82 42.88,-0.81 42.85,-0.86
+                    42.79,-0.85 42.74,-0.9 42.71,-0.95 42.7,-1.03 42.76,-1.05 42.78,-1.13
+                    42.81,-1.16 42.83,-1.16 42.87,-1.2 42.87,-1.23 42.81,-1.28 42.83,-1.34
+                    42.84,-1.4 42.87,-1.42 42.88,-1.48 42.84,-1.59 42.95,-1.56 43.04,-1.55
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>743103</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate rain warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T17:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>Moderate rain warning. Pirineo navarro</headline>
+            <description>One-hour accumulated precipitation: 15 mm.</description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P1;One-hour accumulated precipitation;15 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Pirineo navarro</areaDesc>
+                <polygon>
+                    43.04,-1.55 43.06,-1.5 43.03,-1.47 43.05,-1.45 43.03,-1.35 43.09,-1.34
+                    43.04,-1.25 43.06,-1.23 43.01,-1.13 42.99,-1.01 42.95,-0.94 42.95,-0.81
+                    42.97,-0.75 42.92,-0.73 42.92,-0.78 42.9,-0.82 42.88,-0.81 42.85,-0.86
+                    42.79,-0.85 42.74,-0.9 42.71,-0.95 42.7,-1.03 42.76,-1.05 42.78,-1.13
+                    42.81,-1.16 42.83,-1.16 42.87,-1.2 42.87,-1.23 42.81,-1.28 42.83,-1.34
+                    42.84,-1.4 42.87,-1.42 42.88,-1.48 42.84,-1.59 42.95,-1.56 43.04,-1.55
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>743103</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093533.633301PRP207221791192933
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:35:33-00:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <scope>Public</scope>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de lluvias de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T23:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de lluvias de nivel amarillo. Litoral occidental asturiano
+            </headline>
+            <description>
+                Precipitación acumulada en 12 horas: 40 mm. Podrán acumularse entre 60 y 80 litros
+                en la cara norte de la cordillera y más de 80 litros en Picos de Europa.
+            </description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P2;Precipitación acumulada en 12 horas;40 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Litoral occidental asturiano</areaDesc>
+                <polygon>
+                    43.47,-7.05 43.54,-7.03 43.57,-6.91 43.56,-6.82 43.56,-6.68 43.57,-6.64
+                    43.55,-6.54 43.56,-6.4 43.55,-6.35 43.59,-6.21 43.57,-6.19 43.56,-6.12
+                    43.57,-6.06 43.59,-6.03 43.58,-5.96 43.59,-5.94 43.59,-5.91 43.55,-5.85
+                    43.53,-5.86 43.49,-5.82 43.48,-5.85 43.5,-5.9 43.47,-5.97 43.48,-6.01
+                    43.51,-6.02 43.47,-6.1 43.42,-6.14 43.45,-6.22 43.5,-6.23 43.5,-6.29 43.48,-6.33
+                    43.43,-6.36 43.4,-6.39 43.41,-6.43 43.44,-6.45 43.44,-6.52 43.46,-6.55
+                    43.46,-6.6 43.49,-6.66 43.49,-6.72 43.47,-6.72 43.46,-6.77 43.47,-6.8
+                    43.45,-6.84 43.46,-6.9 43.42,-6.9 43.37,-6.95 43.47,-7.0 43.47,-7.05
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>633301</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate rain warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T23:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>
+                Moderate rain warning. Litoral occidental asturiano
+            </headline>
+            <description>
+                Twelve-hours accumulated precipitation: 40 mm. Podrán acumularse entre 60 y 80
+                litros en la cara norte de la cordillera y más de 80 litros en Picos de Europa.
+            </description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P2;Twelve-hours accumulated precipitation;40 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Litoral occidental asturiano</areaDesc>
+                <polygon>
+                    43.47,-7.05 43.54,-7.03 43.57,-6.91 43.56,-6.82 43.56,-6.68 43.57,-6.64
+                    43.55,-6.54 43.56,-6.4 43.55,-6.35 43.59,-6.21 43.57,-6.19 43.56,-6.12
+                    43.57,-6.06 43.59,-6.03 43.58,-5.96 43.59,-5.94 43.59,-5.91 43.55,-5.85
+                    43.53,-5.86 43.49,-5.82 43.48,-5.85 43.5,-5.9 43.47,-5.97 43.48,-6.01
+                    43.51,-6.02 43.47,-6.1 43.42,-6.14 43.45,-6.22 43.5,-6.23 43.5,-6.29 43.48,-6.33
+                    43.43,-6.36 43.4,-6.39 43.41,-6.43 43.44,-6.45 43.44,-6.52 43.46,-6.55
+                    43.46,-6.6 43.49,-6.66 43.49,-6.72 43.47,-6.72 43.46,-6.77 43.47,-6.8
+                    43.45,-6.84 43.46,-6.9 43.42,-6.9 43.37,-6.95 43.47,-7.0 43.47,-7.05
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>633301</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093533.611403TOTO07041791192933
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:35:33-00:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <scope>Public</scope>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de tormentas de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T05:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de tormentas de nivel amarillo. Subbética cordobesa
+            </headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Tormentas;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Subbética cordobesa</areaDesc>
+                <polygon>
+                    37.42,-4.84 37.45,-4.83 37.5,-4.78 37.51,-4.73 37.53,-4.72 37.56,-4.75
+                    37.61,-4.71 37.65,-4.72 37.7,-4.67 37.67,-4.66 37.69,-4.57 37.73,-4.56
+                    37.76,-4.52 37.77,-4.43 37.77,-4.37 37.79,-4.36 37.82,-4.3 37.82,-4.28
+                    37.8,-4.29 37.78,-4.21 37.72,-4.24 37.71,-4.18 37.68,-4.16 37.64,-4.23
+                    37.62,-4.18 37.56,-4.14 37.55,-4.11 37.51,-4.09 37.51,-4.06 37.47,-4.05
+                    37.4,-4.0 37.4,-4.08 37.38,-4.13 37.34,-4.16 37.35,-4.21 37.33,-4.24 37.3,-4.24
+                    37.26,-4.26 37.23,-4.25 37.18,-4.33 37.21,-4.33 37.22,-4.37 37.27,-4.38
+                    37.28,-4.42 37.26,-4.48 37.23,-4.49 37.21,-4.53 37.21,-4.57 37.24,-4.61
+                    37.26,-4.65 37.29,-4.67 37.32,-4.67 37.35,-4.7 37.34,-4.73 37.34,-4.78
+                    37.36,-4.82 37.42,-4.84
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>611403</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate thunderstorm warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>TO;Tormentas</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T00:00:00+02:00</onset>
+            <expires>2026-10-07T05:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>Moderate thunderstorm warning. Subbética cordobesa</headline>
+            <description>Probabilidad de granizo.</description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>TO;Thunderstorm;</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Subbética cordobesa</areaDesc>
+                <polygon>
+                    37.42,-4.84 37.45,-4.83 37.5,-4.78 37.51,-4.73 37.53,-4.72 37.56,-4.75
+                    37.61,-4.71 37.65,-4.72 37.7,-4.67 37.67,-4.66 37.69,-4.57 37.73,-4.56
+                    37.76,-4.52 37.77,-4.43 37.77,-4.37 37.79,-4.36 37.82,-4.3 37.82,-4.28
+                    37.8,-4.29 37.78,-4.21 37.72,-4.24 37.71,-4.18 37.68,-4.16 37.64,-4.23
+                    37.62,-4.18 37.56,-4.14 37.55,-4.11 37.51,-4.09 37.51,-4.06 37.47,-4.05
+                    37.4,-4.0 37.4,-4.08 37.38,-4.13 37.34,-4.16 37.35,-4.21 37.33,-4.24 37.3,-4.24
+                    37.26,-4.26 37.23,-4.25 37.18,-4.33 37.21,-4.33 37.22,-4.37 37.27,-4.38
+                    37.28,-4.42 37.26,-4.48 37.23,-4.49 37.21,-4.53 37.21,-4.57 37.24,-4.61
+                    37.26,-4.65 37.29,-4.67 37.32,-4.67 37.35,-4.7 37.34,-4.73 37.34,-4.78
+                    37.36,-4.82 37.42,-4.84
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>611403</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+    <alert>
+        <identifier>
+            2.49.0.0.724.0.ES.20261005093533.752001PRP207221791192933
+        </identifier>
+        <sender>http://www.aemet.es</sender>
+        <sent>2026-10-05T09:35:33-00:00</sent>
+        <status>Actual</status>
+        <msgType>Alert</msgType>
+        <scope>Public</scope>
+        <info>
+            <language>es-ES</language>
+            <category>Met</category>
+            <event>Aviso de lluvias de nivel amarillo</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T12:00:00+02:00</onset>
+            <expires>2026-10-07T23:59:59+02:00</expires>
+            <senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+            <headline>
+                Aviso de lluvias de nivel amarillo. Gipuzkoa litoral
+            </headline>
+            <description>Precipitación acumulada en 12 horas: 40 mm.</description>
+            <instruction>
+                Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se
+                pueden producir daños moderados a personas y bienes, especialmente a aquellos
+                vulnerables o en zonas expuestas al fenómeno.
+            </instruction>
+            <web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P2;Precipitación acumulada en 12 horas;40 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Gipuzkoa litoral</areaDesc>
+                <polygon>
+                    43.32,-2.41 43.3,-2.36 43.3,-2.35 43.3,-2.27 43.31,-2.21 43.29,-2.18 43.32,-2.04
+                    43.32,-1.99 43.34,-1.96 43.34,-1.92 43.37,-1.86 43.38,-1.83 43.37,-1.79
+                    43.34,-1.76 43.3,-1.73 43.29,-1.78 43.25,-1.79 43.23,-1.82 43.2,-1.91
+                    43.17,-1.92 43.2,-1.96 43.19,-2.0 43.24,-2.08 43.22,-2.13 43.2,-2.16 43.21,-2.23
+                    43.23,-2.26 43.21,-2.3 43.24,-2.35 43.27,-2.37 43.27,-2.42 43.29,-2.44
+                    43.32,-2.41
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>752001</value>
+                </geocode>
+            </area>
+        </info>
+        <info>
+            <language>en-GB</language>
+            <category>Met</category>
+            <event>Moderate rain warning</event>
+            <responseType>Monitor</responseType>
+            <urgency>Future</urgency>
+            <severity>Moderate</severity>
+            <certainty>Likely</certainty>
+            <eventCode>
+                <valueName>AEMET-Meteoalerta fenomeno</valueName>
+                <value>PR;Lluvias</value>
+            </eventCode>
+            <effective>2026-10-05T11:35:33+02:00</effective>
+            <onset>2026-10-07T12:00:00+02:00</onset>
+            <expires>2026-10-07T23:59:59+02:00</expires>
+            <senderName>AEMET. State Meteorological Agency</senderName>
+            <headline>Moderate rain warning. Gipuzkoa litoral</headline>
+            <description>Twelve-hours accumulated precipitation: 40 mm.</description>
+            <instruction>
+                Be aware, keep up to date with the latest weather forecast. Moderate damages to
+                people and properties may occur, especially to those vulnerable or in exposed areas.
+            </instruction>
+            <web>https://www.aemet.es/en/eltiempo/prediccion/avisos</web>
+            <contact>AEMET</contact>
+            <parameter>
+                <valueName>AEMET-Meteoalerta nivel</valueName>
+                <value>amarillo</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta parametro</valueName>
+                <value>P2;Twelve-hours accumulated precipitation;40 mm</value>
+            </parameter>
+            <parameter>
+                <valueName>AEMET-Meteoalerta probabilidad</valueName>
+                <value>40%-70%</value>
+            </parameter>
+            <area>
+                <areaDesc>Gipuzkoa litoral</areaDesc>
+                <polygon>
+                    43.32,-2.41 43.3,-2.36 43.3,-2.35 43.3,-2.27 43.31,-2.21 43.29,-2.18 43.32,-2.04
+                    43.32,-1.99 43.34,-1.96 43.34,-1.92 43.37,-1.86 43.38,-1.83 43.37,-1.79
+                    43.34,-1.76 43.3,-1.73 43.29,-1.78 43.25,-1.79 43.23,-1.82 43.2,-1.91
+                    43.17,-1.92 43.2,-1.96 43.19,-2.0 43.24,-2.08 43.22,-2.13 43.2,-2.16 43.21,-2.23
+                    43.23,-2.26 43.21,-2.3 43.24,-2.35 43.27,-2.37 43.27,-2.42 43.29,-2.44
+                    43.32,-2.41
+                </polygon>
+                <geocode>
+                    <valueName>AEMET-Meteoalerta zona</valueName>
+                    <value>752001</value>
+                </geocode>
+            </area>
+        </info>
+    </alert>
+</alerts>

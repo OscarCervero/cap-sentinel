@@ -1,0 +1,26 @@
+El objetivo de esta aplicación como ya se explicó en la presentación realizada en clase
+es usar el CAP XML y procesarlo mediante los 3 lenguajes utilizados. Se ha realizado un botón para
+ver la comparativa del tiempo que tarda cada lenguaje en hacer la lógica.
+
+Una vez se carga el archivo de ejemplo o un archivo con CAP XML se ejecuta automáticamente la lógica JS,
+si se quiere ejecutar la lógica de WebAssembly o la lógica de TS se tiene que pulsar en sus respectivos botones o ejecutar
+el benchmark de 100 repeticiones.
+
+Se ha añadido también un mapa para la representació visual. Este mapa añade divs dinámicos una vez se carga en la página,
+pero por el resto se ha evitado el uso de class, id y divs. Solo se ha usado ids en la primera sección del html para quitar
+errores de label is empty en el achecker, ya que no procesaba aria-label ni title.
+
+En la aplicación se pueden encontrar dos ficheros xml:
+ 1.alerts-sample.xml: Un pequeño fichero de prueba creado por mí con dos alertas muy simples para su visualización.
+ 2.ejemplos-aemet.xml: Ejemplos reales procedentes de la AEMET que ya son más complejos y que además se puede apreciar en el mapa como sus 
+ son más elaborados. Los he ensamblado manualmente en este archivo porque la AEMET proporciona los CAPXml por separado, cada alerta en un XML.
+ He elegido un total de 10 alertas distribuidas a lo largo de España para su visualización. Con dos de ellas en la sierra de Madrid solapándose.
+
+ Las alertas sacadas de la AEMET, han sido sacadas todas de: https://www.aemet.es/es/rss_info/avisos/esp
+Para ser exactos, de la pestaña atom.
+
+Como ampliaciones:
+Se podría hacer que la lógica de la aplicación también procesara alertas que no tuvieran las coordenadas puestas, ya que
+por ejemplo la AEMET en algunas alertas en vez de usar coordenadas geográficas, usa un sistema propio de nombrado de alertas.
+Pero esto requeriría una investigación mayor y que se saldría de lo que se pedía en la aplicación que era centrarse en el
+lenguaje derivado de XML.
