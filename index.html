@@ -20,15 +20,16 @@
     <section>
       <h2>1. Configuración de entrada</h2>
       <p>
-        <label>Archivo XML (CAP):</label>
+        <label>Archivo XML (CAP):
         <input type="file" accept=".xml">
+        </label>
         <button type="button" name="load-sample">Cargar ejemplo de prueba</button>
       </p>
 
       <p>
         <label>Coordenadas del usuario a comprobar:</label>
-        <input type="number" name="latitude" step="0.0001" value="43.3619">
-        <input type="number" name="longitude" step="0.0001" value="-5.8494">
+        <input type="number" name="latitude" step="0.0001" value="43.3619" aria-label="Latitud">
+        <input type="number" name="longitude" step="0.0001" value="-5.8494" aria-label="Longitud">
         <button type="button" name="btn-gps">📍 Usar mi GPS</button>
         <small>(Por defecto: Oviedo, Asturias)</small>
       </p>
