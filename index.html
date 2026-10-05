@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CAP Sentinel - Procesamiento XML (JS, TS, WASM)</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+
+  <header>
+    <h1>CAP-Sentinel: Analizador de Alertas CAP</h1>
+    <p>Comparativa de rendimiento y visualización geoespacial: JavaScript vs. TypeScript vs. WebAssembly</p>
+  </header>
+
+  <main>
+    <!-- 1. Configuración de entrada -->
+    <section>
+      <h2>1. Configuración de entrada</h2>
+      <p>
+        <label>Archivo XML (CAP):</label>
+        <input type="file" accept=".xml">
+        <button type="button" name="load-sample">Cargar ejemplo de prueba</button>
+      </p>
+
+      <p>
+        <label>Coordenadas del usuario a comprobar:</label>
+        <input type="number" name="latitude" step="0.0001" value="43.3619">
+        <input type="number" name="longitude" step="0.0001" value="-5.8494">
+        <button type="button" name="btn-gps">📍 Usar mi GPS</button>
+        <small>(Por defecto: Oviedo, Asturias)</small>
+      </p>
+    </section>
+
+    <!-- 2. Ejecución y Benchmark -->
+    <section>
+      <h2>2. Ejecución y Benchmark</h2>
+      <nav>
+        <button type="button" name="run-js">Ejecutar JavaScript</button>
+        <button type="button" name="run-ts">Ejecutar TypeScript</button>
+        <button type="button" name="run-wasm">Ejecutar WebAssembly</button>
+        <button type="button" name="run-all">Ejecutar Comparativa (x100)</button>
+      </nav>
+
+      <output>
+        <span>Selecciona un archivo o carga el ejemplo para comenzar.</span>
+      </output>
+    </section>
+
+    <!-- 3. Visualización Cartográfica -->
+    <section>
+      <h2>3. Visualización Geoespacial de Alertas</h2>
+      <figure aria-label="Mapa cartográfico vectorial de alertas"></figure>
+        <small>🟢 Polígono verde: alerta distante | 🔴 Polígono rojo: zona de alerta sobre tu posición | 📍 Pin azul: coordenadas comprobadas.</small>
+    </section>
+
+    <!-- 4. Tabla de Resultados -->
+    <section>
+      <h2>4. Alertas Detectadas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Evento</th>
+            <th scope="col">Severidad</th>
+            <th scope="col">Urgencia</th>
+            <th scope="col">Zona</th>
+            <th scope="col">¿Afecta al usuario?</th>
+            <th scope="col">Criticidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="7">Sin datos procesados</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Única importación modular de la aplicación -->
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

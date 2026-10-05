@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alerts>
+  <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>ES-AEMET-2026-001</identifier>
+    <sender>avisos@aemet.es</sender>
+    <sent>2026-09-28T16:00:00+02:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <info>
+      <category>Met</category>
+      <event>Lluvias y Tormentas Severas</event>
+      <urgency>Immediate</urgency>
+      <severity>Severe</severity>
+      <certainty>Observed</certainty>
+      <headline>Aviso naranja por lluvias intensas en la zona central de Asturias</headline>
+      <description>Precipitaciones acumuladas de hasta 40 mm en una hora con posibilidad de granizo.</description>
+      <area>
+        <areaDesc>Oviedo, Gijón y Valles Mineros</areaDesc>
+        <!-- Coordenadas aproximadas en formato lat,lon separadas por espacios -->
+        <polygon>43.60,-5.95 43.60,-5.60 43.25,-5.60 43.25,-5.95 43.60,-5.95</polygon>
+      </area>
+    </info>
+  </alert>
+
+  <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>ES-AEMET-2026-002</identifier>
+    <sender>avisos@aemet.es</sender>
+    <sent>2026-09-28T10:00:00+02:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <info>
+      <category>Met</category>
+      <event>Temperaturas Máximas</event>
+      <urgency>Expected</urgency>
+      <severity>Moderate</severity>
+      <certainty>Likely</certainty>
+      <headline>Aviso amarillo por calor en Valle del Guadalquivir</headline>
+      <description>Temperaturas máximas que podrían alcanzar los 38 ºC.</description>
+      <area>
+        <areaDesc>Campiña sevillana</areaDesc>
+        <polygon>37.55,-6.15 37.55,-5.65 37.15,-5.65 37.15,-6.15 37.55,-6.15</polygon>
+      </area>
+    </info>
+  </alert>
+  <alert>
+<identifier>
+2.49.0.0.724.0.ES.20261004193005.673402PRP104221791142205
+</identifier>
+<sender>http://www.aemet.es</sender>
+<sent>2026-10-04T19:30:05-00:00</sent>
+<status>Actual</status>
+<msgType>Update</msgType>
+<scope>Public</scope>
+<references>
+http://www.aemet.es,2.49.0.0.724.0.ES.20261003164540.673402PRP104201791045940,2026-10-03T16:45:40-00:00
+</references>
+<info>
+<language>es-ES</language>
+<category>Met</category>
+<event>Aviso de lluvias de nivel amarillo</event>
+<responseType>Monitor</responseType>
+<urgency>Immediate</urgency>
+<severity>Moderate</severity>
+<certainty>Likely</certainty>
+<eventCode>
+<valueName>AEMET-Meteoalerta fenomeno</valueName>
+<value>PR;Lluvias</value>
+</eventCode>
+<effective>2026-10-04T21:30:05+02:00</effective>
+<onset>2026-10-04T21:00:00+02:00</onset>
+<expires>2026-10-04T23:59:59+02:00</expires>
+<senderName>AEMET. Agencia Estatal de Meteorología</senderName>
+<headline>
+Aviso de lluvias de nivel amarillo. Meseta de Palencia
+</headline>
+<description>Precipitación acumulada en una hora: 20 mm.</description>
+<instruction>
+Esté atento. Manténgase informado de la predicción meteorológica más actualizada. Se pueden producir daños moderados a personas y bienes, especialmente a aquellos vulnerables o en zonas expuestas al fenómeno.
+</instruction>
+<web>https://www.aemet.es/es/eltiempo/prediccion/avisos</web>
+<contact>AEMET</contact>
+<parameter>
+<valueName>AEMET-Meteoalerta nivel</valueName>
+<value>amarillo</value>
+</parameter>
+<parameter>
+<valueName>AEMET-Meteoalerta parametro</valueName>
+<value>P1;Precipitación acumulada en una hora;20 mm</value>
+</parameter>
+<parameter>
+<valueName>AEMET-Meteoalerta probabilidad</valueName>
+<value>40%-70%</value>
+</parameter>
+<area>
+<areaDesc>Meseta de Palencia</areaDesc>
+<polygon>
+42.29,-5.0 42.3,-4.95 42.35,-4.94 42.37,-4.97 42.39,-4.9 42.44,-4.91 42.45,-4.9 42.54,-4.89 42.55,-4.91 42.58,-4.9 42.64,-4.9 42.63,-4.8 42.61,-4.81 42.59,-4.77 42.64,-4.77 42.62,-4.71 42.63,-4.64 42.67,-4.69 42.69,-4.68 42.66,-4.63 42.66,-4.55 42.68,-4.51 42.7,-4.54 42.77,-4.52 42.81,-4.49 42.76,-4.42 42.79,-4.37 42.82,-4.41 42.82,-4.33 42.86,-4.33 42.85,-4.27 42.9,-4.23 42.86,-4.22 42.84,-4.2 42.86,-4.14 42.84,-4.14 42.82,-4.18 42.79,-4.15 42.79,-4.1 42.76,-4.08 42.73,-4.11 42.75,-4.14 42.74,-4.18 42.7,-4.22 42.67,-4.27 42.62,-4.27 42.61,-4.29 42.54,-4.28 42.5,-4.25 42.46,-4.25 42.46,-4.31 42.43,-4.33 42.38,-4.32 42.36,-4.28 42.31,-4.25 42.21,-4.21 42.18,-4.19 42.13,-4.2 42.12,-4.11 42.1,-4.08 42.06,-4.1 42.04,-4.08 42.05,-4.04 42.05,-3.98 42.03,-3.97 42.0,-4.01 41.95,-4.03 41.96,-3.99 42.0,-3.91 41.96,-3.89 41.96,-3.94 41.93,-3.98 41.9,-3.98 41.87,-4.03 41.87,-4.09 41.83,-4.09 41.79,-4.04 41.77,-4.04 41.78,-4.09 41.81,-4.12 41.8,-4.15 41.81,-4.24 41.76,-4.32 41.79,-4.39 41.76,-4.44 41.78,-4.49 41.82,-4.49 41.83,-4.54 41.81,-4.56 41.86,-4.63 41.89,-4.64 41.9,-4.67 41.86,-4.73 41.83,-4.76 41.82,-4.79 41.9,-4.84 41.93,-4.89 41.92,-4.91 41.93,-4.95 41.94,-5.0 42.01,-4.96 42.02,-4.94 42.05,-4.95 42.08,-4.92 42.14,-4.93 42.15,-5.03 42.19,-5.01 42.22,-5.02 42.29,-5.0
+</polygon>
+<geocode>
+<valueName>AEMET-Meteoalerta zona</valueName>
+<value>673402</value>
+</geocode>
+</area>
+</info>
+</alert>
+</alerts>
