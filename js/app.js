@@ -319,9 +319,9 @@ btnRunAll.addEventListener('click', () => {
   renderMap(latestResults, { lat, lon });
 
   outputStats.innerHTML = `
-    <p><strong>Resultados del Benchmark (${iterations} iteraciones completas):</strong></p>
-    <p>JavaScript: <strong>${timeJS.toFixed(2)} ms</strong> (media: ${(timeJS / iterations).toFixed(3)} ms/ejecución)</p>
-    <p>TypeScript: <strong>${timeTS.toFixed(2)} ms</strong> (media: ${(timeTS / iterations).toFixed(3)} ms/ejecución)</p>
-    <p>WebAssembly (Rust): <strong>${timeWASM.toFixed(2)} ms</strong> (media: ${(timeWASM / iterations).toFixed(3)} ms/ejecución)</p>
+    <span><strong>Resultados del Benchmark (${iterations} iteraciones completas):</strong></span>
+    <span>JavaScript: <strong>${timeJS.toFixed(2)} ms</strong> (media: ${(timeJS / iterations).toFixed(3)} ms/ejecución)</span>
+    <span>TypeScript: <strong>${timeTS.toFixed(2)} ms</strong> (media: ${(timeTS / iterations).toFixed(3)} ms/ejecución)</span>
+    <span>WebAssembly (Rust): <strong>${timeWASM.toFixed(2)} ms</strong> (media: ${(timeWASM / iterations).toFixed(3)} ms/ejecución)</span>
   `;
 });
